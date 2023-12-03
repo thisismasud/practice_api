@@ -39,7 +39,7 @@ app.use("/api/student/", studentRoute);
 app.use("/api/user", userRoute);
 
 //port
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 //generic error handler middleware to catch unhandled errors and log them
 app.use((err, req, res, next) => {
